@@ -1,38 +1,14 @@
 ---
-title: Hello World
+title: 博客的第一篇文章
+date: 2026-08-25 12:00:00
+categories:
+  - 随笔
+tags:
+  - 生活
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+这是博客的第一篇随笔，用来验证文章的日期、分类、标签和字数统计是否正常显示。
 
-### Create a new post
+这里多写几段文字，让字数统计的数字更有存在感。写作流程是：本地用 Markdown 写文章，执行 `hexo new "标题"` 新建，`hexo server` 预览，然后 git push 自动发布到 GitHub Pages。
 
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+图片放在 `source/images/` 目录，随项目一起提交即可。
